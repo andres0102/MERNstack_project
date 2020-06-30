@@ -1,0 +1,62 @@
+.bin-index-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 100px 0 100px;
+}
+
+.actual-bin-container {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.pin-collection {
+  overflow: hidden;
+  background: #efefef;
+  border-radius: 10px;
+  width: 307.8px;
+  height: 206px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bin-pin-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 1.3px;
+}
+.bin-about {
+  width: 100%;
+  align-self: left;
+}
+
+.actual-bin-container:hover {
+  .pin-collection {
+    background-color: lightgray;
+    transition-delay: 0.2s;
+  }
+  background-color: #efefef;
+  transition-delay: 0.2s;
+}
+
+.bin-name {
+  width: 300px;
+  padding-top: 10px;
+  color: #333;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: Helvetica;
+}
+
+.number-of-pins {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+
